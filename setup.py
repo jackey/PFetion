@@ -1,19 +1,19 @@
 ﻿#coding=utf-8
 from setuptools import setup
-import PyWapFetion
+import PFetion
 
 setup(
-    name = PyWapFetion.__name__,
-    version = PyWapFetion.__version__,
-    packages = ['PyWapFetion'],
+    name = PFetion.__name__,
+    version = PFetion.__version__,
+    packages = ['PFetion'],
     keywords = 'library mobile fetion',
-    author = PyWapFetion.__author__,
+    author = PFetion.__author__,
     author_email = 'whtsky@gmail.com',
 
-    url = PyWapFetion.__website__,
+    url = PFetion.__website__,
     description = 'A simple python lib for WapFetion',
     long_description = open("README.md").read(),
-    license = PyWapFetion.__license__,
+    license = PFetion.__license__,
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Console',

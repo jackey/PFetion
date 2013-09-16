@@ -1,10 +1,10 @@
 #coding=utf-8
 from __future__ import with_statement
 
-__name__ = 'PyWapFetion'
+__name__ = 'PFetion'
 __version__ = '0.9.4'
 __author__ = 'whtsky'
-__website__ = 'http://github.com/whtsky/PyWapFetion'
+__website__ = 'https://github.com/jackey/PFetion'
 __license__ = 'MIT'
 
 from Fetion import Fetion
