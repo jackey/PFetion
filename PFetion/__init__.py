@@ -11,10 +11,10 @@ from Fetion import Fetion
 
 
 def send2self(mobile, password, message):
-    with Fetion(mobile, password) as x:
-        x.send2self(message)
+    x = Fetion(mobile, password)
+    x.send2self(message)
 
 
 def send(mobile, password, to, message):
-    with Fetion(mobile, password) as x:
-        x.send(to, message)
+    x = Fetion(mobile, password)
+    x.send(to, message)
