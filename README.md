@@ -60,3 +60,7 @@ PyWapFetion是一个飞信的Python模块，使用Wap飞信协议。
 
 	with Fetion('手机号', '密码') as f:  # 其实你也可以用with，这样更方便一点
     	f.send2self('xxxx')
+    	
+依赖
+---------------
+1. python >= 2.7.x
